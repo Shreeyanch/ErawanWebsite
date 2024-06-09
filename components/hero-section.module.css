@@ -1,0 +1,215 @@
+.newcalloutChild,
+.newcalloutItem {
+  position: absolute;
+  border-radius: var(--br-181xl);
+}
+.newcalloutChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 283px;
+  height: 36px;
+  opacity: 0.1;
+}
+.newcalloutItem {
+  top: 4.5px;
+  left: 5px;
+  background-color: var(--color-mediumseagreen-100);
+  width: 46px;
+  height: 26px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  width: 19px;
+  height: 13px;
+}
+.authenticMuayThai {
+  position: absolute;
+  top: 8.5px;
+  left: 66px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  opacity: 0.8;
+}
+.newcallout {
+  width: 283px;
+  position: relative;
+  height: 36px;
+}
+.erawan {
+  margin: 0;
+}
+.title {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -2px;
+  line-height: 120px;
+  font-weight: 600;
+}
+.subtitle {
+  width: 600px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 29px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.enrollNow {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.button,
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-3xs);
+  background-color: var(--color-mediumseagreen-100);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-seagreen);
+}
+.button1 {
+  background-color: var(--color-gray-700);
+}
+.button1:hover {
+  background-color: var(--color-gray-600);
+}
+.buttonrow,
+.herocta,
+.herotext {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonrow {
+  width: 430px;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.herocta,
+.herotext {
+  flex-direction: column;
+}
+.herocta {
+  align-self: stretch;
+  gap: var(--gap-27xl);
+  font-size: var(--font-size-109xl);
+}
+.herotext {
+  flex: 1;
+  padding: 0 0 var(--padding-67xl);
+  gap: var(--gap-12xl);
+  z-index: 2;
+}
+.heroimageIcon {
+  width: 644px;
+  position: relative;
+  height: 656px;
+  object-fit: cover;
+}
+.heroimageWrapper,
+.herosection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heroimageWrapper {
+  justify-content: flex-end;
+  margin-left: -148px;
+}
+.herosection {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-22xl) 0 var(--padding-22xl) var(--padding-101xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: var(--font-size-111xl);
+    line-height: 130px;
+  }
+  .herotext {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .heroimageIcon {
+    width: 624px;
+  }
+  .heroimageWrapper,
+  .herosection {
+    padding-left: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .herosection {
+    flex-direction: column;
+    gap: var(--gap-161xs);
+    padding-left: var(--padding-101xl);
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-56xl);
+    line-height: 85px;
+  }
+  .buttonrow,
+  .subtitle {
+    max-width: 90%;
+  }
+  .heroimageIcon {
+    width: 524px;
+  }
+  .heroimageWrapper,
+  .herosection {
+    padding-left: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .herosection {
+    gap: var(--gap-161xs);
+    padding-left: var(--padding-41xl);
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 428px) {
+  .authenticMuayThai {
+    font-size: var(--font-size-3xs);
+    line-height: 16px;
+  }
+  .title {
+    font-size: var(--font-size-41xl);
+    line-height: 59px;
+  }
+  .enrollNow {
+    font-size: var(--font-size-mini);
+    line-height: 20px;
+  }
+  .heroimageIcon {
+    width: 444px;
+    height: 550px;
+  }
+  .herosection {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

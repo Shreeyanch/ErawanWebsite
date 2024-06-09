@@ -1,0 +1,25 @@
+.activities {
+  position: relative;
+  letter-spacing: 1px;
+}
+.page4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 3px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 428px) {
+  .activities {
+    font-size: var(--font-size-31xl);
+  }
+}

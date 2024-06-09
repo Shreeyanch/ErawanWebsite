@@ -1,0 +1,350 @@
+.images2Icon {
+  position: absolute;
+  top: calc(50% - 263px);
+  left: calc(50% - 200px);
+  width: 412px;
+  height: 554px;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: calc(50% - 30.55px);
+  left: calc(50% - 88.45px);
+  border-radius: var(--br-xs);
+  width: 176.9px;
+  height: 56.4px;
+}
+.groupItem {
+  position: absolute;
+  top: calc(50% - 20.25px);
+  left: calc(50% - 72.85px);
+  border-radius: 50%;
+  background-color: var(--color-darksalmon);
+  width: 37.6px;
+  height: 33.8px;
+}
+.runningStickFigureSvgrepoCIcon {
+  position: absolute;
+  top: calc(50% - 14.55px);
+  left: calc(50% - 66.75px);
+  width: 25.4px;
+  height: 21.6px;
+  overflow: hidden;
+}
+.running,
+.runningWrapper {
+  position: absolute;
+  width: 103.7px;
+  height: 45.1px;
+}
+.running {
+  top: calc(50% - 22.55px);
+  left: calc(50% - 51.85px);
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.runningWrapper {
+  top: calc(50% - 14.55px);
+  left: calc(50% - 26.05px);
+  mix-blend-mode: normal;
+}
+.vectorParent {
+  position: absolute;
+  top: calc(50% - 291px);
+  left: calc(50% + 43.7px);
+  width: 176.9px;
+  height: 61.1px;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet);
+  width: 223.7px;
+  height: 92.1px;
+}
+.frameChild {
+  position: absolute;
+  top: 1.6px;
+  left: 1.5px;
+  border-radius: 50%;
+  background-color: var(--color-gray-800);
+  width: 36px;
+  height: 34px;
+}
+.icons8Exercise521 {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  width: 22px;
+  height: 26px;
+  object-fit: cover;
+}
+.ellipseParent {
+  position: absolute;
+  top: 27.3px;
+  left: 18.7px;
+  width: 41.7px;
+  height: 37.6px;
+  overflow: hidden;
+}
+.functional {
+  margin: 0;
+}
+.functionalTraining {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 132.2px;
+  height: 84.6px;
+}
+.functionalTrainingWrapper {
+  position: absolute;
+  top: 17.9px;
+  left: 83.4px;
+  width: 132.2px;
+  height: 84.6px;
+  mix-blend-mode: normal;
+}
+.rectangleParent {
+  position: absolute;
+  top: 439.1px;
+  left: 366.3px;
+  width: 223.7px;
+  height: 102.5px;
+}
+.strengthTraining {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.strengthTrainingWrapper {
+  position: absolute;
+  top: 0;
+  left: 56.5px;
+  width: 95px;
+  height: 60px;
+  mix-blend-mode: normal;
+}
+.icons8Workout961 {
+  position: absolute;
+  top: 5px;
+  left: 4.5px;
+  width: 31px;
+  height: 30px;
+  object-fit: cover;
+}
+.frameItem,
+.icons8Workout961Parent {
+  position: absolute;
+  left: 0;
+  height: 40px;
+}
+.frameItem {
+  top: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-800);
+  width: 40px;
+}
+.icons8Workout961Parent {
+  top: 6px;
+  width: 41px;
+  overflow: hidden;
+}
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 151.5px;
+  height: 60px;
+}
+.groupWrapper {
+  width: 151.5px;
+  position: relative;
+  height: 60px;
+}
+.section1Inner {
+  position: absolute;
+  top: 349.8px;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  width: 208.4px;
+  height: 88.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-4xl);
+  box-sizing: border-box;
+}
+.section1 {
+  flex: 1;
+  position: relative;
+  height: 582px;
+}
+.muayThaiTraining {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 150%;
+  font-weight: 300;
+}
+.atErawanWeContainer {
+  width: 314px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 29px;
+  color: var(--color-lavenderblush-200);
+  display: inline-block;
+}
+.muayThaiTrainingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl-8);
+}
+.enrollNow {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-decoration: underline;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.enrollNowWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+}
+.downloadapp,
+.downloadappInner,
+.enrollNowWrapper,
+.vouchers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.downloadappInner {
+  align-self: stretch;
+  flex-direction: row;
+}
+.downloadapp,
+.vouchers {
+  flex-direction: column;
+}
+.downloadapp {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+}
+.vouchers {
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.feedbackdemo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-52xl) var(--padding-81xl) var(--padding-75xl);
+  gap: var(--gap-77xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-1);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .muayThaiTraining {
+    font-size: var(--font-size-11xl);
+    text-align: center;
+  }
+  .atErawanWeContainer {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-lgi);
+  }
+  .downloadapp,
+  .muayThaiTrainingParent,
+  .vouchers {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .feedbackdemo {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .muayThaiTraining {
+    font-size: var(--font-size-11xl);
+  }
+  .atErawanWeContainer {
+    font-size: var(--font-size-sm);
+  }
+  .feedbackdemo {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 669px) {
+  .rectangleParent,
+  .section1Inner,
+  .vectorParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 428px) {
+  .muayThaiTraining {
+    font-size: var(--font-size-6xl);
+  }
+  .atErawanWeContainer {
+    font-size: var(--font-size-xs);
+  }
+  .enrollNow {
+    font-size: var(--font-size-mini);
+    line-height: 20px;
+    text-align: center;
+  }
+  .downloadapp {
+    gap: var(--gap-11xs);
+  }
+  .vouchers {
+    gap: var(--gap-31xl);
+  }
+  .feedbackdemo {
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .images2Icon {
+    position: absolute;
+    top: calc(50% - 263px);
+    left: calc(50% - 150px);
+    width: 312px;
+    height: 454px;
+    object-fit: cover;
+  }
+}

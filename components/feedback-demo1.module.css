@@ -1,0 +1,56 @@
+.screenshot20240606At1408 {
+  width: 333px;
+  position: relative;
+  height: 306px;
+  object-fit: cover;
+}
+.nepalsRajinaErawan {
+  width: 315px;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 26.25px;
+  display: inline-block;
+}
+.downloadapp {
+  align-self: stretch;
+}
+.downloadapp,
+.vouchers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feedbackdemo {
+  align-self: stretch;
+  background-color: var(--color-gray-500);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-52xl) var(--padding-145xl) var(--padding-75xl);
+  gap: var(--gap-44xl);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-lavenderblush-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .feedbackdemo {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nepalsRajinaErawan {
+    font-size: var(--font-size-sm);
+  }
+  .feedbackdemo {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 428px) {
+  .nepalsRajinaErawan {
+    font-size: var(--font-size-xs);
+  }
+}

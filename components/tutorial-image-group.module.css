@@ -1,0 +1,123 @@
+.trainer3Child {
+  position: absolute;
+  height: 83.38%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 16.62%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.samanthaWilliam {
+  position: absolute;
+  bottom: 19px;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.professionalMuayThai {
+  margin: 0;
+}
+.professionalMuayThaiContainer {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.5;
+}
+.trainer3 {
+  position: absolute;
+  height: 42.83%;
+  width: 26.75%;
+  top: 21.47%;
+  right: 73.25%;
+  bottom: 35.71%;
+  left: 0;
+}
+.professionalMuayThaiContainer1 {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.5;
+}
+.tutorial1Child,
+.tutorial2 {
+  position: absolute;
+  height: 42.83%;
+  width: 26.75%;
+  top: 57.17%;
+  right: 46.5%;
+  bottom: 0;
+  left: 26.75%;
+}
+.tutorial1Child {
+  height: 88.93%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rajuRai,
+.wbcMuayThaiContainer {
+  position: absolute;
+  letter-spacing: 0.5px;
+}
+.rajuRai {
+  top: 92.39%;
+  left: 3.58%;
+  line-height: 25px;
+  font-weight: 600;
+}
+.wbcMuayThaiContainer {
+  bottom: -28px;
+  left: 20px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  opacity: 0.5;
+}
+.tutorial1 {
+  position: absolute;
+  height: 64.29%;
+  width: 46.5%;
+  top: 0;
+  right: 0;
+  bottom: 35.71%;
+  left: 53.5%;
+}
+.tutorialimagegroup {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  aspect-ratio: 1.33;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 768px) {
+  .professionalMuayThaiContainer {
+    margin-top: 20px;
+  }
+  .tutorialimagegroup {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  .rajuRai {
+    font-size: var(--font-size-3xs);
+  }
+}

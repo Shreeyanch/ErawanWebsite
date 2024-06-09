@@ -1,0 +1,642 @@
+.aimToMake {
+  line-height: 35px;
+}
+.a24074941Icon,
+.aimToMake,
+.ourFighters {
+  align-self: stretch;
+  position: relative;
+}
+.a24074941Icon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ourFighters {
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  line-height: 35px;
+  cursor: pointer;
+}
+.ourfighters {
+  align-self: stretch;
+  height: 762px;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: 24px;
+}
+.ourOfferings {
+  height: 45px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  font-weight: 600;
+  display: inline-block;
+}
+.producttitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heresWhatWere {
+  height: 45px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 45px;
+  display: inline-block;
+}
+.productdetails,
+.productsubtitle {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productsubtitle {
+  flex-direction: row;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-900);
+}
+.productdetails {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.cardimageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 250px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.muayThai,
+.viewMore1 {
+  cursor: default;
+  position: relative;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.muayThai {
+  height: 15px;
+  line-height: 15px;
+  font-weight: 600;
+}
+.viewMore1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 10px;
+  font-size: var(--font-size-3xs);
+  text-decoration: underline;
+  line-height: 10px;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.text,
+.titles {
+  display: flex;
+  align-items: flex-start;
+}
+.titles {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.text {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+.productcard1 {
+  width: 316px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.mma {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 15px;
+  font-weight: 600;
+}
+.column1,
+.productscards {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.column1 {
+  flex: 1;
+  display: flex;
+  gap: 82px;
+}
+.productscards {
+  width: 1200px;
+  display: none;
+  font-size: var(--font-size-xl);
+}
+.productframe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.products {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-101xl) 12px;
+}
+.ourQualifiedTrainers {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.ourHighlyQualified {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.5px;
+  line-height: 26.3px;
+  color: var(--color-gray-900);
+}
+.title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 110px;
+  gap: var(--gap-mid);
+}
+.ctaframe,
+.trainerscta {
+  display: flex;
+  flex-direction: row;
+}
+.ctaframe {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trainerscta {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-101xl);
+}
+.tutorial3Child {
+  position: absolute;
+  height: 82.58%;
+  width: 100%;
+  top: -0.18%;
+  right: 0;
+  bottom: 17.6%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kosangRai2 {
+  line-height: 25px;
+}
+.kosangRai1 {
+  font-weight: 500;
+}
+.kosangRai {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.blankLine2 {
+  line-height: 10px;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+}
+.professionalMuayThai {
+  margin: 0;
+  line-height: 15px;
+  font-weight: 300;
+}
+.kosangRaiProfessionalContainer {
+  position: absolute;
+  width: 100%;
+  top: 82.36%;
+  left: 3.67%;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+.tutorial2Child,
+.tutorial3 {
+  position: absolute;
+  height: 38.58%;
+  width: 50%;
+  top: 61.43%;
+  right: 50%;
+  bottom: -0.01%;
+  left: 0;
+}
+.tutorial2Child {
+  height: 82.14%;
+  width: 100%;
+  top: 0.12%;
+  right: 0;
+  bottom: 17.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.kanchanRaiProfessionalContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+.kanchanRaiProfessionalMuayWrapper {
+  position: absolute;
+  height: 13.37%;
+  width: 100%;
+  top: 85.51%;
+  right: 0;
+  bottom: 1.13%;
+  left: 0;
+}
+.tutorial1Child,
+.tutorial2 {
+  position: absolute;
+  height: 35.74%;
+  width: 50%;
+  top: 31.96%;
+  right: 0;
+  bottom: 32.29%;
+  left: 50%;
+}
+.tutorial1Child {
+  height: 83.55%;
+  width: 100%;
+  top: 0.15%;
+  bottom: 16.3%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rajuRaiWbcMuayThaiNationaWrapper,
+.tutorial1 {
+  position: absolute;
+  height: 11%;
+  width: 100%;
+  top: 86.53%;
+  right: 0;
+  bottom: 2.48%;
+  left: 0;
+}
+.tutorial1 {
+  height: 38.14%;
+  width: 50%;
+  top: -0.04%;
+  right: 50%;
+  bottom: 61.9%;
+}
+.tutorialtablet {
+  width: 1200px;
+  height: auto;
+  position: relative;
+  display: none;
+  aspect-ratio: 0.67;
+}
+.tutorialimages {
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-101xl);
+  gap: var(--gap-3xs);
+  margin-top: -120px;
+  padding-bottom: var(--padding-81xl);
+  font-size: var(--font-size-2xs);
+}
+.fitnesslandingpage,
+.trainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trainers {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 29px 0 54px;
+}
+.fitnesslandingpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-300);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-32xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .ourfighters {
+    align-self: stretch;
+    width: auto;
+    flex-direction: column;
+  }
+  .heresWhatWere,
+  .ourOfferings {
+    text-align: center;
+  }
+  .column1 {
+    flex-direction: row;
+    flex: unset;
+    align-self: stretch;
+  }
+  .productscards {
+    flex-direction: column;
+  }
+  .productframe {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .products {
+    flex-direction: column;
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .ourHighlyQualified,
+  .ourQualifiedTrainers {
+    text-align: center;
+  }
+  .title {
+    flex: unset;
+    align-self: stretch;
+  }
+  .ctaframe {
+    flex-direction: column;
+  }
+  .trainerscta {
+    padding-bottom: 341px;
+    box-sizing: border-box;
+  }
+  .tutorialimages {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+    margin-top: -300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ourfighters {
+    align-self: stretch;
+    width: auto;
+    height: 550px;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .ourOfferings {
+    font-size: var(--font-size-22xl);
+  }
+  .heresWhatWere {
+    font-size: var(--font-size-smi);
+  }
+  .viewMore1 {
+    display: flex;
+  }
+  .productcard1 {
+    height: auto;
+  }
+  .column1 {
+    flex-direction: column;
+    gap: 120px;
+  }
+  .products {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .ourQualifiedTrainers {
+    font-size: var(--font-size-32xl);
+    line-height: 90px;
+  }
+  .ourHighlyQualified {
+    font-size: var(--font-size-sm);
+  }
+  .trainerscta {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .tutorialtablet {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    aspect-ratio: 0.67;
+    height: auto;
+  }
+  .tutorialimages {
+    display: flex;
+    padding-left: var(--padding-21xl);
+    padding-top: 0;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+    margin-top: -320px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .aimToMake {
+    font-size: var(--font-size-mid);
+    text-align: right;
+    width: 395px;
+    height: 42px;
+  }
+  .a24074941Icon {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .ourFighters {
+    font-size: var(--font-size-mid);
+    text-align: right;
+    width: 285px;
+    height: 42px;
+  }
+  .ourfighters {
+    align-self: stretch;
+    width: auto;
+    height: 350px;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .heresWhatWere,
+  .ourOfferings {
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-22xl);
+  }
+  .heresWhatWere {
+    font-weight: 300;
+    font-size: var(--font-size-smi);
+    line-height: 22px;
+  }
+  .productdetails {
+    flex: 1;
+    gap: var(--gap-mini);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+  .column1 {
+    transform: scale(0.8);
+  }
+  .productscards {
+    gap: 0;
+    margin-top: -150;
+    margin-bottom: -150;
+  }
+  .productframe {
+    gap: var(--gap-31xl);
+  }
+  .products {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ourQualifiedTrainers {
+    font-size: var(--font-size-22xl);
+    line-height: 60px;
+  }
+  .ourHighlyQualified {
+    font-weight: 300;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-smi);
+  }
+  .title,
+  .trainerscta {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .trainerscta {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .kanchanRaiProfessionalContainer,
+  .kosangRaiProfessionalContainer {
+    color: var(--color-gray-900);
+  }
+  .tutorialtablet {
+    aspect-ratio: 0.67;
+  }
+  .tutorialimages {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .aimToMake,
+  .ourFighters {
+    font-size: var(--font-size-mid);
+    line-height: 20px;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .ourfighters {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .ourOfferings {
+    font-size: var(--font-size-8xl);
+  }
+  .heresWhatWere {
+    font-size: var(--font-size-2xs);
+    line-height: 15px;
+  }
+  .kanchanRaiProfessionalContainer,
+  .kosangRaiProfessionalContainer {
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-mini);
+  }
+}
+
+
+/* components/Map.module.css */
+.mapContainer {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  height: 350px;
+}
+
+.mapIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+@media (min-width: 1200px) {
+  .mapContainer {
+    width: 1400px;
+  
+  }
+}
+
+@media (max-width: 400px) {
+  .mapContainer {
+    width: 380px;
+  }
+}
+

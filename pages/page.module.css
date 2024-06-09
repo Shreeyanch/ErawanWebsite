@@ -1,0 +1,75 @@
+.ourFighters {
+  position: relative;
+  letter-spacing: 1px;
+}
+.popularexercisessection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-101xl) var(--padding-75xl);
+}
+.ourFightersParent,
+.page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.ourFightersParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0;
+}
+.page3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .ourFighters {
+    font-size: 70px;
+  }
+  .popularexercisessection {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popularexercisessection {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .ourFighters {
+    font-size: var(--font-size-31xl);
+  }
+  .popularexercisessection {
+    padding-left: var(--padding-xl);
+    padding-top: 0;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .ourFighters {
+    font-size: 40px;
+  }
+  .popularexercisessection {
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .ourFightersParent {
+    padding-bottom: 2px;
+    box-sizing: border-box;
+  }
+}

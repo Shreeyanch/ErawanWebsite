@@ -1,0 +1,75 @@
+.cardimageIcon {
+  width: 373px;
+  position: relative;
+  height: 250px;
+  object-fit: contain;
+}
+.title {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  font-weight: 600;
+}
+.weightDivision {
+  margin: 0;
+}
+.fightRecord {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.subtitle {
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+}
+.text,
+.titles {
+  display: flex;
+  align-items: flex-start;
+}
+.titles {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.text {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-xl);
+  margin-top: -30px;
+}
+.column1,
+.exercisecard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exercisecard {
+  width: 373.3px;
+  justify-content: flex-start;
+}
+.column1 {
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .column1 {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .column1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
+  .column1 {
+    transform: scale(0.8);
+  }
+}
